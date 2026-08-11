@@ -1,0 +1,21 @@
+{
+  "name": "javascript-challenges",
+  "version": "1.0.0",
+  "description": "A curated collection of JavaScript challenges designed to help you strengthen your programming logic, problem-solving skills, and coding confidence through hands-on practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirmal-ai9/JavaScript-challenges.git"
+  },
+  "keywords": [],
+  "author": "Nirmal",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nirmal-ai9/JavaScript-challenges/issues"
+  },
+  "homepage": "https://github.com/nirmal-ai9/JavaScript-challenges#readme"
+}
