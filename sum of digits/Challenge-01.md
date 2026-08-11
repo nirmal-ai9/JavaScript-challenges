@@ -3,7 +3,7 @@
 ## Problem Statement
 
 Write a JavaScript program that reads an integer from standard input and prints the sum of its digits.
-Don't change function name in template when writing solution. 
+Don't change function name in template when writing solution. Don't hardcode for only test cases.
 
 ## Input Format
 
