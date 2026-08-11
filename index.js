@@ -13,7 +13,28 @@ function runTest(x){
   console.log(`Tests: 7\n`);
 
   let passed = 0;
+  let failed = [];
   data.tests.forEach((test, index) => {
     try {
       const result = solution(test.input);
+      if (result === test.expected) {
+        console.log(`✓ Test ${index + 1} passed`);
+        passed++;
+      } else {
+        console.log(`✗ Test ${index + 1} failed`);
+        failed.push(index);
+      }
+    } catch (error) {
+      console.log(`✗ Test ${index + 1} failed`);
+    }});
+
+  if(failed.length === 0){
+    console.log("/nAll test passed");
+  } else{
+    failed.forEach( (e) => {
+      console.log(`${data.function}(${data.tests[failed[e]].input}) should return ${data.tests[failed[e]].expected}`)
+    });
+  }
 }
+
+module.exports = runTest;
