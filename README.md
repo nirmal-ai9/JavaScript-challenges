@@ -30,7 +30,6 @@ We welcome all contributors! Follow these steps to get started:
 repo/
 ├── challenge1/
 │   ├── Challenge-01.md
-│   ├── index.js
 │   ├── config.json
 │   └── solutions/
 │       ├── nirmal.js
@@ -39,12 +38,11 @@ repo/
 │
 ├── challenge2/
 │   ├── Challenge-02.md
-│   ├── index.js
 │   ├── config.json
 │   └── solutions/
 │       ├── nirmal.js
 │       └── ...
-│
+├── index.js
 └── README.md
 ```
 
