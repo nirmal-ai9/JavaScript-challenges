@@ -13,7 +13,7 @@ function runTest(x){
   console.log(`Tests: 7\n`);
 
   let passed = 0;
-  config.tests.forEach((test, index) => {
+  data.tests.forEach((test, index) => {
     try {
       const result = solution(test.input);
 }
