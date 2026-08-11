@@ -10,17 +10,23 @@ A curated collection of JavaScript challenges designed to help you strengthen yo
 
 We welcome all contributors! Follow these steps to get started:
 
-1. Choose any challenge from the folder.
-2. Clone the repository to your local machine.
+1. Fork repository. 
+2. Choose any challenge from the folder.
 3. Navigate to the `solutions` folder of the selected challenge.
-4. Create a JavaScript file using your name.
+   ```
+   cd "your-challenge name"/solutions
+   ```
+5. Create a JavaScript file using your name.
    - Example: if your name is `alex`, create:
      ```
      solutions/alex.js
      ```
-5. Implement your solution in the file.
-6. Run the provided tests and ensure all of them pass successfully.
-7. Once everything works, open a Pull Request and submit your solution.
+6. Implement your solution in the file.
+7. Run the provided tests and ensure all of them pass successfully.
+   - How to run:
+      ```
+      node your-filename.js
+9. Once everything works, open a Pull Request and submit your solution.
 
 > **Tip:** Read the challenge description carefully before starting.
 
