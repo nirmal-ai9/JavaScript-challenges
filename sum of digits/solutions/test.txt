@@ -1,1 +1,7 @@
-
+sumOfDigits(245) should return 11
+sumOfDigits(0) should return 0
+sumOfDigits(9) should return 9
+sumOfDigits(1000) should return 1
+sumOfDigits(123456789) should return 45
+sumOfDigits(999999999) should return 81
+sumOfDigits(1000000000) should return 1
