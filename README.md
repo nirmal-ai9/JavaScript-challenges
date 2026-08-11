@@ -29,16 +29,18 @@ We welcome all contributors! Follow these steps to get started:
 ```
 repo/
 ├── challenge1/
-│   ├── challenge1.md
-│   ├── test.txt
+│   ├── Challenge-01.md
+│   ├── index.js
+│   ├── config.json
 │   └── solutions/
 │       ├── nirmal.js
 │       ├── alex.js
 │       └── ...
 │
 ├── challenge2/
-│   ├── challenge2.md
-│   ├── test.txt
+│   ├── Challenge-02.md
+│   ├── index.js
+│   ├── config.json
 │   └── solutions/
 │       ├── nirmal.js
 │       └── ...
