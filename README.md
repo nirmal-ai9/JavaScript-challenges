@@ -51,6 +51,7 @@ repo/
 │       ├── nirmal.js
 │       └── ...
 ├── index.js
+├── package.json
 └── README.md
 ```
 
