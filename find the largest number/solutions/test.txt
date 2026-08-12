@@ -1,0 +1,7 @@
+findLargest([3,7,2,9,4]) should return 9
+findLargest([10,5,8,2]) should return 10
+findLargest([-5,-2,-10,-1]) should return -1
+findLargest([42]) should return 42
+findLargest([1,1,1,1]) should return 1
+findLargest([100,250,75,999,500]) should return 999
+findLargest([-100,-50,-25,-75]) should return -25
