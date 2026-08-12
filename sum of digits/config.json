@@ -1,5 +1,5 @@
 {
-    "functionName": "sumOfDigits",
+    "function": "sumOfDigits",
     "params": ["num"],
     "tests": [
         { "input": [245], "expected": 11 },
