@@ -2,7 +2,7 @@ const chokidar = require('chokidar');
 const path = require('path');
 const fs = require('fs');
 
-console.log("chokidar activated");
+console.log("Watcher activated...");
 
 const watchedFolders = ['"sum of digits"/solutions'];
 const watcher = chokidar.watch(watchedFolders, { ignoreInitial: true });
@@ -10,8 +10,6 @@ const watcher = chokidar.watch(watchedFolders, { ignoreInitial: true });
 watcher.on('add', (filePath) => {
   const folder = path.dirname(filePath);
   const fileName = path.basename(filePath);
-  console.log(folder);
-  console.log(fileName);
   const configPath = path.join(path.dirname(folder), "config.json");
   const data = JSON.parse(fs.readFileSync(configPath,  "utf8"));
 
