@@ -1,0 +1,7 @@
+reverseString(hello) should return olleh
+reverseString(JavaScript) should return tpircSavaJ
+reverseString(abc) should return cba
+reverseString(12345) should return 54321
+reverseString(racecar) should return racecar
+reverseString(Nirmal) should return lamriN
+reverseString(Hello World) should return dlroW olleH
