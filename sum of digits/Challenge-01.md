@@ -18,6 +18,21 @@ A single integer: the sum of all digits in `num`.
 - `0 <= num <= 10^9`
 - Input is guaranteed to be a valid non-negative integer.
 
+## Template
+
+```js
+function sumOfDigits(num) {
+  // Change only this area 
+  return result;
+}
+
+module.exports = sumOfDigit;
+
+if (require.main === module) {
+    require("../../index.js")(__filename);
+}
+```
+
 ## Example
 
 **Input**
