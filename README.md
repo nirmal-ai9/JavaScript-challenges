@@ -8,14 +8,12 @@ A curated collection of JavaScript challenges designed to help you strengthen yo
 
 We welcome all contributors! Follow these steps to get started:
 
-### 1. Fork the Repository
+1. Fork the Repository
 Fork this repository to your GitHub account.
 
-### 2. Clone Your Fork
-Clone your fork and move into the project directory:
+2. Move into the project directory:
 
 ```bash
-git clone <your-fork-url>
 cd JavaScript-challenges
 ```
 
