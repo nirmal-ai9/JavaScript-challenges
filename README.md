@@ -57,7 +57,7 @@ JavaScript-challenges/
 ├── index.js
 ├── package.json
 ├── package-lock.json
-├── chokidar.js
+├── watcher.js
 └── README.md
 ```
 
