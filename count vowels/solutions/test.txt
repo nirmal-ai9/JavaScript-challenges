@@ -1,0 +1,7 @@
+countVowels(hello) should return 2
+countVowels(Hello World) should return 3
+countVowels(JavaScript) should return 3
+countVowels(ABC) should return 1
+countVowels(aeiou) should return 5
+countVowels(12345) should return 0
+countVowels(Nirmal) should return 2
