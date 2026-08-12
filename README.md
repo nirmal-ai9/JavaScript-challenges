@@ -19,7 +19,7 @@ We welcome all contributors! Follow these steps to get started:
 5. Create a JavaScript file using your name.
    - Example: if your name is `alex`, create:
      ```
-     solutions/alex.js
+     alex.js
      ```
 6. Implement your solution in the file.
 7. Run the provided tests and ensure all of them pass successfully.
@@ -52,6 +52,8 @@ repo/
 │       └── ...
 ├── index.js
 ├── package.json
+├── package-lock.json
+├── chokidar.js
 └── README.md
 ```
 
