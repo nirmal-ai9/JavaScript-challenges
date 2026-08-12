@@ -1,1 +1,34 @@
-
+{
+  "function": "reverseString",
+  "params": ["str"],
+  "tests": [
+    {
+      "input": "hello",
+      "expected": "olleh"
+    },
+    {
+      "input": "JavaScript",
+      "expected": "tpircSavaJ"
+    },
+    {
+      "input": "abc",
+      "expected": "cba"
+    },
+    {
+      "input": "12345",
+      "expected": "54321"
+    },
+    {
+      "input": "racecar",
+      "expected": "racecar"
+    },
+    {
+      "input": "Nirmal",
+      "expected": "lamriN"
+    },
+    {
+      "input": "Hello World",
+      "expected": "dlroW olleH"
+    }
+  ]
+}
