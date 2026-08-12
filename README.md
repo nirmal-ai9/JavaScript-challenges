@@ -10,9 +10,13 @@ A curated collection of JavaScript challenges designed to help you strengthen yo
 
 We welcome all contributors! Follow these steps to get started:
 
-1. Fork repository. 
-2. Choose any challenge from the folder.
-3. Navigate to the `solutions` folder of the selected challenge.
+1. Fork repository.
+2. Run watcher.js
+   ```js
+   node watcher.js
+   ```
+3. Choose any challenge from the folder.
+4. Navigate to the `solutions` folder of the selected challenge.
    ```
    cd "your-challenge name"/solutions
    ```
@@ -26,7 +30,7 @@ We welcome all contributors! Follow these steps to get started:
    - How to run:
       ```
       node your-filename.js
-9. Once everything works, open a Pull Request and submit your solution.
+8. Once everything works, open a Pull Request and submit your solution.
 
 > **Tip:** Read the challenge description carefully before starting.
 
