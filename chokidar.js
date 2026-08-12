@@ -9,7 +9,7 @@ watcher.on('add', (filePath) => {
   const folder = path.dirname(filePath);
   const fileName = path.basename(filePath);
   const configPath = path.join(path.dirname(folder), "config.json");
-  const data = JSON.parse(fs.writeFileSync(configPath),  "utf8");
+  const data = JSON.parse(fs.readFileSync(configPath),  "utf8");
 
   const template = 
     `function ${data.function}(${data.params.join(", ")}){
@@ -20,6 +20,7 @@ watcher.on('add', (filePath) => {
     module.exports = ${data.function};
     if (require.main === module) {
       require("../../index.js")(__filename);
-    }`
-    
+    }`;
+  
+  fs.writeFileSync(filePath, template);  
 });
