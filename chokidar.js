@@ -12,7 +12,7 @@ watcher.on('add', (filePath) => {
   const data = JSON.parse(fs.writeFileSync(configPath),  "utf8");
 
   const template = 
-    `function ${data.function}(${data.param}){
+    `function ${data.function}(${data.params.join(", ")}){
       // Your code goes here
       return result;
     }
