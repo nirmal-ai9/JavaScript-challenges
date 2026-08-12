@@ -3,9 +3,11 @@ const path = require('path');
 const fs = require('fs');
 
 console.log("Watcher activated...");
-
-const watchedFolders = ['sum of digits/solutions', 'reverse a string/solutions', 'find the largest number/solutions', 'count vowels/solutions', 'count occurrences/ solutions'];
-const watcher = chokidar.watch(watchedFolders, { ignoreInitial: true });
+const watcher = chokidar.watch('**/solutions/**', {
+  cwd: __dirname,
+  ignoreInitial: true,
+  ignored: ['**/node_modules/**', '**/.git/**'],
+});
 
 watcher.on('add', (filePath) => {
   const folder = path.dirname(filePath);
