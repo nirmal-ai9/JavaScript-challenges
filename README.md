@@ -8,27 +8,77 @@ A curated collection of JavaScript challenges designed to help you strengthen yo
 
 We welcome all contributors! Follow these steps to get started:
 
-1. Fork repository.
-2. Run watcher.js
-   ```js
-   node watcher.js
-   ```
-3. Choose any challenge from the folder.
-4. Navigate to the `solutions` folder of the selected challenge.
-   ```
-   cd "your-challenge name"/solutions
-   ```
-5. Create a JavaScript file using your name.
-   - Example: if your name is `alex`, create:
-     ```
-     alex.js
-     ```
-6. Implement your solution in the file.
-7. Run the provided tests and ensure all of them pass successfully.
-   - How to run:
-      ```
-      node your-filename.js
-8. Once everything works, open a Pull Request and submit your solution.
+### 1. Fork the Repository
+Fork this repository to your GitHub account.
+
+### 2. Clone Your Fork
+Clone your fork and move into the project directory:
+
+```bash
+git clone <your-fork-url>
+cd JavaScript-challenges
+```
+
+3. Start the Watcher
+```js
+node watcher.js
+```
+Keep the watcher running while working on your solution.
+
+4. Choose a Challenge
+Choose any challenge you want to solve.
+For example:
+```
+sum of digits/
+```
+Read the challenge description in:
+```
+Challenge-01.md
+```
+
+5. Open the Solutions Folder
+Navigate to the challenge's solutions folder:
+```bash
+cd challenge1/solutions
+```
+
+6. Create Your Solution File
+Create a JavaScript file using your name.
+For example, if your name is alex:
+```js
+alex.js
+```
+The watcher will automatically detect the new file and add the required solution template.
+
+7. Solve the Challenge
+Open your generated file and write your solution.
+
+8. Run the Tests
+Run your solution from the solutions folder:
+```js
+node alex.js
+```
+The test runner will automatically run all 7 test cases.
+Make sure all tests pass before submitting your contribution.
+
+9. Commit Your Solution
+Go back to the repository root:
+```bash
+cd ../..
+```
+Add your changes:
+```bash
+git add .
+git commit -m "Add solution for Challenge-01"
+git push
+```
+
+10. Create a Pull Request
+Open your fork on GitHub and create a Pull Request to the original repository.
+Make sure your Pull Request contains only your solution and related changes.
+
+11. Done! 🎉
+Your solution will be reviewed. If everything looks good, it can be merged into the repository.
 
 > **Tip:** Read the challenge description carefully before starting.
 
