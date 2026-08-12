@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/nirmal-ai9/JavaScript-challenges/issues"
   },
-  "homepage": "https://github.com/nirmal-ai9/JavaScript-challenges#readme"
+  "homepage": "https://github.com/nirmal-ai9/JavaScript-challenges#readme",
+  "dependencies": {
+    "chokidar": "^5.0.0"
+  }
 }
