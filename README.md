@@ -35,7 +35,7 @@ We welcome all contributors! Follow these steps to get started:
 ## Repository Structure
 
 ```
-repo/
+JavaScript-challenges/
 ├── challenge1/
 │   ├── Challenge-01.md
 │   ├── config.json
