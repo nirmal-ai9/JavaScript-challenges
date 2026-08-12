@@ -37,7 +37,7 @@ Challenge-01.md
 ### 5. Open the Solutions Folder
 Navigate to the challenge's solutions folder:
 ```bash
-cd challenge1/solutions
+cd "sum of digits"/solutions
 ```
 
 ### 6. Create Your Solution File
