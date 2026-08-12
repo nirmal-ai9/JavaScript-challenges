@@ -4,7 +4,7 @@ const fs = require('fs');
 
 console.log("Watcher activated...");
 
-const watchedFolders = ['"sum of digits"/solutions'];
+const watchedFolders = ['sum of digits/solutions'];
 const watcher = chokidar.watch(watchedFolders, { ignoreInitial: true });
 
 watcher.on('add', (filePath) => {
