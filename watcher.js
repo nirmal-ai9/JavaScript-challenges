@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 console.log("Watcher activated...");
-const watcher = chokidar.watch('**/solutions/**', {
+const watcher = chokidar.watch('**/solutions/**/*.js', {
   cwd: __dirname,
   ignoreInitial: true,
   ignored: ['**/node_modules/**', '**/.git/**'],
