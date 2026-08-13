@@ -9,6 +9,8 @@ const watcher = chokidar.watch('**/solutions/**/*.js', {
   ignored: ['**/node_modules/**', '**/.git/**'],
 });
 
+watcher.on('ready', () => console.log('Initial scan complete, ready for changes'));
+watcher.on('error', (err) => console.error('Watcher error:', err));
 watcher.on('add', (filePath) => {
   const folder = path.dirname(filePath);
   const fileName = path.basename(filePath);
