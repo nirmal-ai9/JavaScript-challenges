@@ -7,6 +7,8 @@ const watcher = chokidar.watch('*/solutions/**/*.js', {
   cwd: __dirname,
   ignoreInitial: true,
   ignored: ['**/node_modules/**', '**/.git/**'],
+  usePolling: true,
+  interval: 100,
 });
 
 watcher.on('ready', () => console.log('Initial scan complete, ready for changes'));
