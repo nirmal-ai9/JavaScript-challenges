@@ -1,0 +1,34 @@
+{
+  "function": "isAnagram",
+  "params": ["str1", "str2"],
+  "tests": [
+    {
+      "input": ["listen", "silent"],
+      "expected": true
+    },
+    {
+      "input": ["hello", "world"],
+      "expected": false
+    },
+    {
+      "input": ["triangle", "integral"],
+      "expected": true
+    },
+    {
+      "input": ["apple", "pale"],
+      "expected": false
+    },
+    {
+      "input": ["night", "thing"],
+      "expected": true
+    },
+    {
+      "input": ["state", "taste"],
+      "expected": true
+    },
+    {
+      "input": ["abc", "abcd"],
+      "expected": false
+    }
+  ]
+}
