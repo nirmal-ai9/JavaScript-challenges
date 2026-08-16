@@ -1,0 +1,34 @@
+{
+  "function": "isPrime",
+  "params": ["num"],
+  "tests": [
+    {
+      "input": 2,
+      "expected": true
+    },
+    {
+      "input": 15,
+      "expected": false
+    },
+    {
+      "input": 17,
+      "expected": true
+    },
+    {
+      "input": 1,
+      "expected": false
+    },
+    {
+      "input": 97,
+      "expected": true
+    },
+    {
+      "input": 100,
+      "expected": false
+    },
+    {
+      "input": 29,
+      "expected": true
+    }
+  ]
+}
