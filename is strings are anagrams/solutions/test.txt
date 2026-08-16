@@ -1,0 +1,7 @@
+isAnagram("listen", "silent") should return true
+isAnagram("hello", "world") should return false
+isAnagram("triangle", "integral") should return true
+isAnagram("apple", "pale") should return false
+isAnagram("night", "thing") should return true
+isAnagram("state", "taste") should return true
+isAnagram("abc", "abcd") should return false
