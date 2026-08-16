@@ -1,0 +1,7 @@
+isPrime(2) should return true
+isPrime(15) should return false
+isPrime(17) should return true
+isPrime(1) should return false
+isPrime(97) should return true
+isPrime(100) should return false
+isPrime(29) should return true
