@@ -4,7 +4,7 @@ A curated collection of JavaScript challenges designed to help you strengthen yo
 
 ---
 
-## How to Contribute
+## How to solve challenges 
 
 We welcome all contributors! Follow these steps to get started:
 
